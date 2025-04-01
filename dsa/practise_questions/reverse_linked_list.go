@@ -39,11 +39,14 @@ func ReverseEvenLength(head *ListNode) *ListNode {
 	// current index of the node
 	index := 0
 	var tempArray []int
+	var groupedNodes [][]int
 
 	// traverse a linked list
 	for temp != nil {
 		index++
 		tempArray = append(tempArray, temp.Val)
+
+		groupedNodes = append(groupedNodes, tempArray)
 		fmt.Printf("Temp array : %v @ index %d \n\n", tempArray, index)
 		if index == 2 {
 			break

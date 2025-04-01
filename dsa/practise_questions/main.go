@@ -10,8 +10,8 @@ func main() {
 	head := new(ListNode)
 
 	// [5,2,6,3,9,1,7,3,8,4]
-	head.InsertNode(5)
 	head.InsertNode(2)
+	head.InsertNode(5)
 	head.InsertNode(6)
 	head.InsertNode(3)
 	head.InsertNode(9)
