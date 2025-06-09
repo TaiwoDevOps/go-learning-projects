@@ -1,0 +1,28 @@
+{
+    "clientName": "Thunder Client",
+    "collectionName": "chat-app",
+    "collectionId": "cfef8ed7-331b-418a-ac63-6d816abf1f3d",
+    "dateExported": "2025-05-10T21:16:28.016Z",
+    "version": "1.2",
+    "folders": [],
+    "requests": [
+        {
+            "_id": "38431fe0-2c41-4314-8dbc-2742fa0f74c2",
+            "colId": "cfef8ed7-331b-418a-ac63-6d816abf1f3d",
+            "containerId": "",
+            "name": "sign-up",
+            "url": "localhost:8080/sign-up",
+            "method": "POST",
+            "sortNum": 10000,
+            "created": "2025-05-10T20:32:15.144Z",
+            "modified": "2025-05-10T20:34:07.202Z",
+            "headers": [],
+            "body": {
+                "type": "json",
+                "raw": "{\n  \"username\": \"jboy\",\n  \"email\": \"jb@y.com\",\n  \"password\": \"password\"\n}",
+                "form": []
+            }
+        }
+    ],
+    "ref": "L5UbukO8J6BOPyFwQbSC55vQCzFPtKr1Q1BaQ_4Va-2I3xjE3eFnCbcTLdxm01HuYTrkSgMChgpUIr_57QnR-w"
+}

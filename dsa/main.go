@@ -1,30 +1,58 @@
 package main
 
-import "fmt"
+import (
+	"fmt"
+
+	practiceQuestions "github.com/TaiwoDevOps/dsa/practiseQuestions"
+)
 
 func main() {
 
-	res := twoSumData([]int{2, 7, 11, 15}, 22)
+	// res := twoSumData([]int{2, 7, 11, 15}, 22)
 
-	fmt.Println(res)
+	// fmt.Println(res)
+
+	// nums := []int{1, 2, 2, 2, 3, 4, 5, 6, 7, 8, 9} //{1, 2, 2, 2, 3, 4, 5, 6, 7, 8, 9} //{0, 0, 1, 1, 1, 2, 2, 3, 3, 4}
+	// val := practiceQuestions.RemoveDuplicates(nums)
+	// fmt.Println("the length is ", val)
+
+	arRes := practiceQuestions.Generate(5)
+	fmt.Println("the generated array is ", arRes)
 
 }
 
-func twoSumData(numbers []int, target int) []int {
+/*
 
-	// create a map to the value and its index as k,v
-	valueMap := make(map[int]int)
+single string swap algorithm
 
-	// iterate based on the len of the array
-	for i := 0; i < len(numbers); i++ {
-		subVal := target - numbers[i]
+package main
 
-		if j, value := valueMap[subVal]; value {
-			return []int{j, i}
-		}
+import "../practise_questions/fmt"
 
-		valueMap[numbers[i]] = i
-	}
+func main() {
+	res := AreAlmostEqual("bank", "kanb")
+	fmt.Println("res:-->", res)
 
-	return []int{}
+	reverse even length
+	head := new(ListNode)
+
+	[5,2,6,3,9,1,7,3,8,4]
+	head.InsertNode(2)
+	head.InsertNode(5)
+	head.InsertNode(6)
+	head.InsertNode(3)
+	head.InsertNode(9)
+	head.InsertNode(1)
+	head.InsertNode(7)
+	head.InsertNode(3)
+	head.InsertNode(8)
+	head.InsertNode(4)
+
+	head.printList()
+	ReverseEvenLength(head)
+
+
+
 }
+
+*/
