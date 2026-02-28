@@ -23,7 +23,7 @@ import "fmt"
 
 func SubtractOneFromLength(s *[]int) {
 	sl := *s
-	sl = sl[0 : len(sl)-1]
+	sl = sl[:len(sl)-1]
 	// put it back to the original slice
 	*s = sl
 

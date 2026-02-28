@@ -1,0 +1,11 @@
+Welcome to the Go programming.
+	------ Updated Content ------
+	- Go is an open source programming language that makes it easy to build simple, reliable, and efficient software.
+	- Go is expressive, concise, clean, and efficient.
+	- Its concurrency mechanisms make it easy to write programs that get the most out of multicore and networked machines.
+	- Go compiles quickly to machine code yet has the convenience of garbage collection and the power of run-time reflection.
+	- It's a fast, statically typed, compiled language that feels like a dynamically typed, interpreted language.
+	- Go has a robust standard library that makes it easy to build reliable and efficient software.
+	- Go is used by many large companies such as Google, Uber, Twitch, Dropbox, and many more.
+	- Welcome to the Go programming.
+	

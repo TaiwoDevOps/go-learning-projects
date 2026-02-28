@@ -1,0 +1,8 @@
+Application Assets 
+- FontFamily 
+- Assets (.png, .svg, .json)
+- Programs 
+    - GO 
+    - Dart
+    - Flutter 
+    - iOS (Swift)/ Android(Android) 
