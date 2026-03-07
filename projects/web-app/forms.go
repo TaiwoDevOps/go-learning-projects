@@ -40,7 +40,7 @@ func (f *Form) Required(fields ...string) *Form {
 	for _, field := range fields {
 		value := f.Get(field)
 		if strings.TrimSpace(value) == "" {
-			f.Errors.Add(field, fmt.Sprintf("this field %s is required", field))
+			f.Errors.Add(field, fmt.Sprintf("This field %s is required", field))
 		}
 	}
 	return f
